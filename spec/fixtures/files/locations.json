@@ -1,0 +1,38 @@
+{
+  "starbucks_madrid_not_geocoded": {
+    "name": "Starbucks",
+    "phone": "+34 915 21 29 02",
+    "address": "Calle del Arenal, 14",
+    "postcode": "28013",
+    "city": "Madrid",
+    "country": "ES"
+  },
+  "starbucks_madrid_geocoded": {
+    "name": "Starbucks",
+    "phone": "+34 915 21 29 02",
+    "address": "Calle del Arenal, 14",
+    "postcode": "28013",
+    "city": "Madrid",
+    "country": "ES",
+    "latitude": "40.4172453",
+    "longitude": "-3.7061033"
+  },
+  "starbucks_cologne_not_geocoded": {
+    "name": "Starbucks",
+    "phone": "0221 1207518",
+    "address": "Hauptbahnhof, Trankgasse 11",
+    "postcode": "50667",
+    "city": "Cologne",
+    "country": "DE"
+  },
+  "starbucks_cologne_geocoded": {
+    "name": "Starbucks",
+    "phone": "0221 1207518",
+    "address": "Hauptbahnhof, Trankgasse 11",
+    "postcode": "50667",
+    "city": "Cologne",
+    "country": "DE",
+    "latitude": "50.9427989",
+    "longitude": "6.9576498"
+  }
+}
