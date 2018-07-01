@@ -4,6 +4,6 @@ class Location < ApplicationRecord
   private
 
   def geocode
-    LocationsGeocoderWorker.perform_async(self.id)
+    LocationsGeocoderWorker.perform_async(self.id) unless self.latitude && self.longitude
   end
 end
