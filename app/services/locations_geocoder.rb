@@ -18,8 +18,5 @@ class LocationsGeocoder
     request = Net::HTTP::Post.new(url)
 
     response = http.request(request)
-
-    # latitude = JSON.parse(response.body).with_indifferent_access[:results][0][:geometry][:location][:lat]
-    # longitude = JSON.parse(response.body).with_indifferent_access[:results][0][:geometry][:location][:lat]
   end
 end
